@@ -31,10 +31,10 @@ jobs:
             --onefile `
             --windowed `
             --name grg_4366_tool_v5_2 `
-            grg_4366_manual_phase1_tool_v1_2_fixed.py
+            grg_4366_manual_phase1_tool_v1_3_fixed.py
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: grg_4366_tool_v5_2_windows_exe
+          name: grg_4366_tool_v5_3_windows_exe
           path: dist/*.exe
